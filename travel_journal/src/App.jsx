@@ -1,16 +1,16 @@
-
-import './App.css'
-
+import React from 'react';
+//import './App.css';
+import Navbar from './components/header/navbar';
 function App() {
   
   return (
     <>
-      <div className='bg-red-300 text-center'>
-        app
+      <div className=''>
+        <Navbar/>
       </div>
       
     </>
-  )
-}
+  );
+};
 
-export default App
+export default App;
