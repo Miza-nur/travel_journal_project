@@ -1,4 +1,5 @@
 import React from "react";
+import { Link } from "react-router-dom";
 
 const Navbar=() =>{
     return(
@@ -8,14 +9,16 @@ const Navbar=() =>{
             </div>
             <div>
                 <ul className="flex items-center gap-6 py-5">
-                <li>Home</li>
-                <li>Explore</li>
-                <li>Experiences</li>
-                <li>Most Visited Places</li>
+                    <Link to="/home"><li>Home</li></Link>
+                    <Link to="/explore"><li>Explore</li></Link>
+                    <Link to="/experiences"><li>Experiences</li></Link>
+                    <Link to="/top_visited"><li>Most Visited Places</li></Link>
+                    
                 </ul>
             </div>
             <div>
-                <button>Login</button>
+                <Link to="/login"><button>Login</button></Link>
+                
             </div>
         </div>
     );
