@@ -7,6 +7,7 @@ import Experiences from './pages/experiences/Experiences';
 import Top_visit from './pages/top_visited/Top_visit';
 import Login from './pages/login/Login';
 
+
 import {
   createRoutesFromElements,
   createBrowserRouter,
@@ -16,6 +17,7 @@ import {
 
 import Layout from './layout/Layout';
 import Home from './pages/Home/home';
+
 
 function App() {
   
@@ -31,6 +33,7 @@ function App() {
     )
   );
   return <RouterProvider router={router} />;
+
 };
 
 export default App;
