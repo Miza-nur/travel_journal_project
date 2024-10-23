@@ -1,5 +1,5 @@
-import React,{useState,useEffect} from "react";
-import {BsChevronCompactLeft, BsChevronCompactRight} from "react-icons/bs";
+import React from "react";
+
 
 const Login =()=>{
     
