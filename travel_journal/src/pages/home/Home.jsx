@@ -130,6 +130,100 @@ const Home = () => {
    </div>
  </div>
 
+
+ <div>
+ <section className="py-12 bg-white">
+    <div className="container mx-auto px-4">
+      
+      
+      <div className="text-center mb-12">
+        <p className="text-orange-500 font-medium italic">Blog</p>
+        <h2 className="text-3xl font-semibold text-gray-800">Latest News</h2>
+      </div>
+
+    
+      <div className="grid grid-cols-1 md:grid-cols-3 gap-8">
+        
+        
+        <div className="group">
+          <div class="overflow-hidden rounded-lg shadow-lg">
+            <img src="" alt="News 1" className="w-full h-64 object-cover group-hover:scale-110 transition duration-300"></img>
+          </div>
+          <div className="mt-4">
+            <div className="flex items-center text-sm text-gray-600 space-x-2">
+              <span className="text-orange-500">Adventure</span>
+              <span>•</span>
+              <span>June 12, 2023</span>
+              <span>•</span>
+              <span>12</span>
+            </div>
+            <h3 className="text-lg font-semibold text-gray-800 mt-2">Jim Morrison says when the music's over turn off the light</h3>
+          </div>
+        </div>
+
+        
+        <div className="group">
+          <div className="overflow-hidden rounded-lg shadow-lg">
+            <img src="" alt="News 2" class="w-full h-64 object-cover group-hover:scale-110 transition duration-300"></img>
+          </div>
+          <div className="mt-4">
+            <div className="flex items-center text-sm text-gray-600 space-x-2">
+              <span className="text-orange-500">Adventure</span>
+              <span>•</span>
+              <span>June 13, 2023</span>
+              <span>•</span>
+              <span>17</span>
+            </div>
+            <h3 className="text-lg font-semibold text-gray-800 mt-2">Jim Morrison says when the music's over turn off the light</h3>
+          </div>
+        </div>
+
+        
+        <div className="group">
+          <div className="overflow-hidden rounded-lg shadow-lg">
+            <img src="" alt="News 3" className="w-full h-64 object-cover group-hover:scale-110 transition duration-300"></img>
+          </div>
+          <div className="mt-4">
+            <div className="flex items-center text-sm text-gray-600 space-x-2">
+              <span className="text-orange-500">Adventure</span>
+              <span>•</span>
+              <span>June 17, 2023</span>
+              <span>•</span>
+              <span>10</span>
+            </div>
+            <h3 className="text-lg font-semibold text-gray-800 mt-2">Jim Morrison says when the music's over turn off the light</h3>
+          </div>
+        </div>
+
+      </div>
+
+      
+      <div className="mt-16">
+        <div className="grid grid-cols-2 md:grid-cols-5 gap-4">
+          
+          <img src="" alt="Gallery 1" className="w-full h-40 object-cover rounded-lg"></img>
+          <img src="" alt="Gallery 2" className="w-full h-40 object-cover rounded-lg"></img>
+          <div className="relative">
+            <img src="" alt="Gallery 3" class="w-full h-40 object-cover rounded-lg"></img>
+            
+            <div className="absolute inset-0 flex items-center justify-center">
+              <div className="bg-white rounded-full h-16 w-16 flex items-center justify-center shadow-lg">
+                <a href="#" className="text-sm font-semibold text-gray-700">Follow Us <br></br> on Instagram</a>
+              </div>
+            </div>
+          </div>
+          <img src="" alt="Gallery 4" className="w-full h-40 object-cover rounded-lg"></img>
+          <img src="" alt="Gallery 5" className="w-full h-40 object-cover rounded-lg"></img>
+        </div>
+      </div>
+
+    </div>
+  </section>
+
+
+ </div>
+
+
       </div>
 
       
