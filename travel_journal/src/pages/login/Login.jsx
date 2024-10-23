@@ -1,10 +1,16 @@
-import React from "react";
+import React,{useState,useEffect} from "react";
+import {BsChevronCompactLeft, BsChevronCompactRight} from "react-icons/bs";
 
 const Login =()=>{
+    
     return(
+        
         <div>
-            Login
+            <h1>Login</h1>
+
         </div>
+
+        
     )
 }
 
