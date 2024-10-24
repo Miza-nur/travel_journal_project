@@ -14,6 +14,14 @@ const cardimg=[
   "./public/img/london-1 .jpg",
   "./public/img/paris-1.jpg",
   "./public/img/sydney-1 .jpg",
+  "./public/img/img1.jpg",
+  "./public/img/img2.jpg",
+  "./public/img/img3.jpg",
+  "./public/img/img4.jpg",
+  "./public/img/img5.jpg",
+  "./public/img/img6.jpg",
+  "./public/img/img7.jpg",
+  "./public/img/img8.jpg",
   
 
 ];
@@ -147,7 +155,7 @@ const Home = () => {
         
         <div className="group">
           <div class="overflow-hidden rounded-lg shadow-lg">
-            <img src="" alt="News 1" className="w-full h-64 object-cover group-hover:scale-110 transition duration-300"></img>
+            <img src={cardimg[4]} alt="News 1" className="w-full h-64 object-cover group-hover:scale-110 transition duration-300"></img>
           </div>
           <div className="mt-4">
             <div className="flex items-center text-sm text-gray-600 space-x-2">
@@ -164,7 +172,7 @@ const Home = () => {
         
         <div className="group">
           <div className="overflow-hidden rounded-lg shadow-lg">
-            <img src="" alt="News 2" class="w-full h-64 object-cover group-hover:scale-110 transition duration-300"></img>
+            <img src={cardimg[5]} alt="News 2" class="w-full h-64 object-cover group-hover:scale-110 transition duration-300"></img>
           </div>
           <div className="mt-4">
             <div className="flex items-center text-sm text-gray-600 space-x-2">
@@ -181,7 +189,7 @@ const Home = () => {
         
         <div className="group">
           <div className="overflow-hidden rounded-lg shadow-lg">
-            <img src="" alt="News 3" className="w-full h-64 object-cover group-hover:scale-110 transition duration-300"></img>
+            <img src={cardimg[8]}alt="News 3" className="w-full h-64 object-cover group-hover:scale-110 transition duration-300"></img>
           </div>
           <div className="mt-4">
             <div className="flex items-center text-sm text-gray-600 space-x-2">
@@ -201,19 +209,19 @@ const Home = () => {
       <div className="mt-16">
         <div className="grid grid-cols-2 md:grid-cols-5 gap-4">
           
-          <img src="" alt="Gallery 1" className="w-full h-40 object-cover rounded-lg"></img>
-          <img src="" alt="Gallery 2" className="w-full h-40 object-cover rounded-lg"></img>
+          <img src={cardimg[6]} alt="Gallery 1" className="w-full h-40 object-cover rounded-lg"></img>
+          <img src={cardimg[9]} alt="Gallery 2" className="w-full h-40 object-cover rounded-lg"></img>
           <div className="relative">
-            <img src="" alt="Gallery 3" class="w-full h-40 object-cover rounded-lg"></img>
+            <img src={cardimg[10]} alt="Gallery 3" class="w-full h-40 object-cover rounded-lg"></img>
             
             <div className="absolute inset-0 flex items-center justify-center">
-              <div className="bg-white rounded-full h-16 w-16 flex items-center justify-center shadow-lg">
+              <div className="bg-white rounded-full h-24 w-24 flex items-center justify-center shadow-lg">
                 <a href="#" className="text-sm font-semibold text-gray-700">Follow Us <br></br> on Instagram</a>
               </div>
             </div>
           </div>
-          <img src="" alt="Gallery 4" className="w-full h-40 object-cover rounded-lg"></img>
-          <img src="" alt="Gallery 5" className="w-full h-40 object-cover rounded-lg"></img>
+          <img src={cardimg[7]} alt="Gallery 4" className="w-full h-40 object-cover rounded-lg"></img>
+          <img src={cardimg[8]} alt="Gallery 5" className="w-full h-40 object-cover rounded-lg"></img>
         </div>
       </div>
 
