@@ -82,7 +82,7 @@ const Home = () => {
         <button onClick={nextSlide} className='absolute top-[50%] -translate-x-0 translate-y-[-50%] right-5 text-2xl rounded-full p-2 bg-black/20  cursor-pointer'>
         <BsChevronCompactRight size={30}></BsChevronCompactRight>
         </button>
-        <div className='absolute text-center top-[50%] -translate-x-0 translate-y-[-50%]  text-2xl p-2 mr-16 ml-16  cursor-pointer'>
+        <div className='absolute text-center top-[50%] -translate-x-0 translate-y-[-50%]  text-2xl p-2 mr-16 ml-16  cursor-pointer '>
         <h1 className='text-5xl font-bold mb-4 text-center text-cyan-500' >Adventurist</h1><br></br>
         <p className='text-centre '>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Cupiditate, doloremque saepe pariatur nostrum maiores, dolor qui vero animi, deleniti commodi adipisci</p><br></br>
         <a href="" className="bg-green-400 font-semibold inline-block px-10 py-3 hover:bg-indigo-400 hover:text-white transition-all text-left">Explore Now</a>
