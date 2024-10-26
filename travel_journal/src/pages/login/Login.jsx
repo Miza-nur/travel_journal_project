@@ -1,4 +1,4 @@
-import React from "react";
+
 
 const Login =()=>{
     
@@ -18,13 +18,13 @@ const Login =()=>{
 
        
        <div className="mb-4">
-         <label for="email" className="block text-gray-700 font-medium mb-2">Email Address</label>
+         <label htmlFor="email" className="block text-gray-700 font-medium mb-2">Email Address</label>
          <input type="email" id="email" placeholder="Enter your email" className="w-full px-4 py-2 border border-gray-300 rounded-lg focus:outline-none focus:ring-2 focus:ring-orange-500"></input>
        </div>
 
        
        <div className="mb-6">
-         <label for="password" className="block text-gray-700 font-medium mb-2">Password</label>
+         <label htmlFor="password" className="block text-gray-700 font-medium mb-2">Password</label>
          <input type="password" id="password" placeholder="Enter your password" className="w-full px-4 py-2 border border-gray-300 rounded-lg focus:outline-none focus:ring-2 focus:ring-orange-500"></input>
        </div>
 

@@ -1,4 +1,4 @@
-import React, { useState,useEffect } from 'react';
+import { useState,useEffect } from 'react';
 import {BsChevronCompactLeft, BsChevronCompactRight} from "react-icons/bs";
 
 const slides = [
@@ -154,7 +154,7 @@ const Home = () => {
         
         
         <div className="group">
-          <div class="overflow-hidden rounded-lg shadow-lg">
+          <div className="overflow-hidden rounded-lg shadow-lg">
             <img src={cardimg[4]} alt="News 1" className="w-full h-64 object-cover group-hover:scale-110 transition duration-300"></img>
           </div>
           <div className="mt-4">
@@ -172,7 +172,7 @@ const Home = () => {
         
         <div className="group">
           <div className="overflow-hidden rounded-lg shadow-lg">
-            <img src={cardimg[5]} alt="News 2" class="w-full h-64 object-cover group-hover:scale-110 transition duration-300"></img>
+            <img src={cardimg[5]} alt="News 2" className="w-full h-64 object-cover group-hover:scale-110 transition duration-300"></img>
           </div>
           <div className="mt-4">
             <div className="flex items-center text-sm text-gray-600 space-x-2">
@@ -212,7 +212,7 @@ const Home = () => {
           <img src={cardimg[6]} alt="Gallery 1" className="w-full h-40 object-cover rounded-lg"></img>
           <img src={cardimg[9]} alt="Gallery 2" className="w-full h-40 object-cover rounded-lg"></img>
           <div className="relative">
-            <img src={cardimg[10]} alt="Gallery 3" class="w-full h-40 object-cover rounded-lg"></img>
+            <img src={cardimg[10]} alt="Gallery 3" className="w-full h-40 object-cover rounded-lg"></img>
             
             <div className="absolute inset-0 flex items-center justify-center">
               <div className="bg-white rounded-full h-24 w-24 flex items-center justify-center shadow-lg">

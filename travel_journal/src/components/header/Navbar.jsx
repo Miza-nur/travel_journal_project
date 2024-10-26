@@ -2,7 +2,7 @@ import React from "react";
 import { Link } from "react-router-dom";
 import { FaHome } from "react-icons/fa";
 import { FaSearch } from "react-icons/fa";
-import { FaWpexplorer } from "react-icons/fa";
+import { FaUser } from "react-icons/fa";
 import { MdTour } from "react-icons/md";
 
 const Navbar=() =>{
@@ -18,7 +18,7 @@ const Navbar=() =>{
 
                     <Link to="/explore"><li className="active inline-block"><FaSearch className="inline-block w-6 h-6 mr-2 -mt-2"></FaSearch><span className="hidden md:inline-block">Explore</span></li></Link>
 
-                    <Link to="/experiences"><li className="active inline-block"><FaWpexplorer className="inline-block w-6 h-6 mr-2 -mt-2"></FaWpexplorer><span className="hidden md:inline-block">Experiences</span></li></Link>
+                    <Link to="/experiences"><li className="active inline-block"><FaUser className="inline-block w-6 h-6 mr-2 -mt-2"></FaUser><span className="hidden md:inline-block">Profile</span></li></Link>
 
                     <Link to="/top_visited"><li className="active inline-block"><MdTour className="inline-block w-6 h-6 mr-2 -mt-2"></MdTour><span className="hidden md:inline-block">Most Visited Places</span></li></Link>
                     
