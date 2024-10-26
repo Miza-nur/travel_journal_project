@@ -18,6 +18,7 @@ import {
 import Layout from './layout/Layout';
 import Home from './pages/Home/home';
 import Footer from './components/footer/Footer';
+import Signup from './pages/signup/Signup';
 
 function App() {
   
@@ -30,6 +31,7 @@ function App() {
         <Route path="/top_visited" element={<Top_visit/>}></Route>
         <Route path="/login" element={<Login/>}></Route>
         <Route path="/footer" element={<Footer/>}></Route>
+        <Route path="/signup" element={<Signup/>}></Route>
     </Route>
     )
   );

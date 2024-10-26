@@ -1,4 +1,4 @@
-
+import { Link } from "react-router-dom";
 
 const Login =()=>{
     
@@ -46,7 +46,7 @@ const Login =()=>{
 
       <div className="text-center">
        <p className="text-gray-600 text-sm">Don't have an account?</p>
-       <a href="#" className="text-orange-500 font-medium hover:underline">Create a new account</a>
+       <Link to="/signup" className="text-orange-500 font-medium hover:underline">Create a new account</Link>
      </div>
 
    </div>

@@ -63,7 +63,7 @@ const Home = () => {
   };
 
   return (
-    <div className="slider w-auto h-auto m-auto   bg-center bg-cover duration-500">
+    <div className="slider w-auto h-auto m-auto bg-center bg-cover duration-500">
       {/* Display the current slide */}
       <div className="slide ">
         <img
@@ -75,7 +75,7 @@ const Home = () => {
       </div>
 
       {/* Navigation buttons */}
-      <div className="controls ">
+      <div className="controls">
         <button onClick={prevSlide} className='absolute top-[50%] -translate-x-0 translate-y-[-50%] left-5 text-2xl rounded-full p-2 bg-black/20  cursor-pointer'>
         <BsChevronCompactLeft size={30}></BsChevronCompactLeft>
         </button>
