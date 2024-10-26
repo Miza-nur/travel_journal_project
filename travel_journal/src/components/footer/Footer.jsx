@@ -1,4 +1,10 @@
-
+import { FaMapMarkerAlt } from "react-icons/fa";
+import { FaPhoneAlt } from "react-icons/fa";
+import { TbMailFast } from "react-icons/tb";
+import { FaFacebook } from "react-icons/fa";
+import { FaTwitter } from "react-icons/fa";
+import { FaInstagramSquare } from "react-icons/fa";
+import { FaLinkedin } from "react-icons/fa";
 const Footer=() =>{
     return(
         <div>
@@ -29,9 +35,9 @@ const Footer=() =>{
                 <div>
                     <h2 className="text-xl font-semibold mb-4">Contact Info</h2>
                     <ul className="text-sm text-gray-400 space-y-2">
-                        <li><i data-feather="map-pin" className="inline mr-2"></i>1234 Street, City, Country</li>
-                        <li><i data-feather="phone" className="inline mr-2"></i>+123 456 7890</li>
-                        <li><i data-feather="mail" className="inline mr-2"></i>contact@traveljournal.com</li>
+                        <li><FaMapMarkerAlt className="inline-block w-6 h-6 mr-2 -mt-2"></FaMapMarkerAlt>1234 Street, City, Country</li>
+                        <li><FaPhoneAlt className="inline-block w-6 h-6 mr-2 -mt-2"></FaPhoneAlt>+123 456 7890</li>
+                        <li><TbMailFast className="inline-block w-6 h-6 mr-2 -mt-2"></TbMailFast>contact@traveljournal.com</li>
                     </ul>
                 </div>
 
@@ -39,10 +45,10 @@ const Footer=() =>{
                 <div>
                     <h2 className="text-xl font-semibold mb-4">Follow Us</h2>
                     <div className="flex space-x-4 text-gray-400">
-                        <a href="#" className="hover:text-white"><i data-feather="facebook" className="w-6 h-6"></i></a>
-                        <a href="#" className="hover:text-white"><i data-feather="twitter" className="w-6 h-6"></i></a>
-                        <a href="#" className="hover:text-white"><i data-feather="instagram" className="w-6 h-6"></i></a>
-                        <a href="#" className="hover:text-white"><i data-feather="linkedin" className="w-6 h-6"></i></a>
+                        <a href="#" className="hover:text-white"><FaFacebook className="inline-block w-6 h-6 mr-2 -mt-2"></FaFacebook></a>
+                        <a href="#" className="hover:text-white"><FaTwitter className="inline-block w-6 h-6 mr-2 -mt-2"></FaTwitter></a>
+                        <a href="#" className="hover:text-white"><FaInstagramSquare className="inline-block w-6 h-6 mr-2 -mt-2"></FaInstagramSquare></a>
+                        <a href="#" className="hover:text-white"><FaLinkedin className="inline-block w-6 h-6 mr-2 -mt-2"></FaLinkedin></a>
                     </div>
                 </div>
             </div>
