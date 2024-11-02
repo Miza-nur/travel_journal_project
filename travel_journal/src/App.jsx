@@ -1,5 +1,5 @@
 //import { Root } from 'postcss';
-import React from 'react';
+//import React from 'react';
 //import './App.css';
 //import Navbar from './components/header/navbar';
 import Explore from './pages/explore/Explore';
@@ -40,4 +40,4 @@ function App() {
 };
 
 export default App;
-
+ 

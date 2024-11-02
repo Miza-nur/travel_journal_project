@@ -1,6 +1,25 @@
-import { Link } from "react-router-dom";
-
+import { Link, Navigate } from "react-router-dom";
+import { useState } from "react";
 const Login =()=>{
+
+  const [input,setInput]=useState({
+    email:"",
+    password:"",
+  });
+  const handleLogin=(e)=>{
+    e.preventDefault();
+    const loggedUser= JSON.parse(localStorage.getItem("user"));
+    if(input.email === loggedUser.email &&
+      input.password === loggedUser.password
+    ){
+      localStorage.setItem("loggedin",true);
+      Navigate("/");
+
+    }else{
+      alert("Wrong Email or password");
+    }
+    
+  };
     
     return(
         
@@ -14,18 +33,32 @@ const Login =()=>{
      <p className="text-gray-600 text-sm text-center mt-2">Access your personalized travel journal</p>
 
      
-     <form className="mt-6">
+     <form onSubmit={handleLogin} className="mt-6">
 
        
        <div className="mb-4">
          <label htmlFor="email" className="block text-gray-700 font-medium mb-2">Email Address</label>
-         <input type="email" id="email" placeholder="Enter your email" className="w-full px-4 py-2 border border-gray-300 rounded-lg focus:outline-none focus:ring-2 focus:ring-orange-500"></input>
+         <input 
+         name="email"
+         value={input.email}
+         onChange={(e)=>setInput({...input,[e.target.name]:e.target.value})}
+         type="email" 
+         id="email" 
+         placeholder="Enter your email" 
+         className="w-full px-4 py-2 border border-gray-300 rounded-lg focus:outline-none focus:ring-2 focus:ring-orange-500"></input>
        </div>
 
        
        <div className="mb-6">
          <label htmlFor="password" className="block text-gray-700 font-medium mb-2">Password</label>
-         <input type="password" id="password" placeholder="Enter your password" className="w-full px-4 py-2 border border-gray-300 rounded-lg focus:outline-none focus:ring-2 focus:ring-orange-500"></input>
+         <input 
+         name="password"
+         value={input.password}
+         onChange={(e)=>setInput({...input,[e.target.name]:e.target.value})}
+         type="password" 
+         id="password" 
+         placeholder="Enter your password" 
+         className="w-full px-4 py-2 border border-gray-300 rounded-lg focus:outline-none focus:ring-2 focus:ring-orange-500"></input>
        </div>
 
        
