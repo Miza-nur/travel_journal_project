@@ -9,24 +9,20 @@ const slides = [
     "./img/img-5.jpg",
 ];
 
-const cardimg=[
-  "./public/img/newyouk-1.jpg",
-  "./public/img/london-1 .jpg",
-  "./public/img/paris-1.jpg",
-  "./public/img/sydney-1 .jpg",
-  "./public/img/img1.jpg",
-  "./public/img/img2.jpg",
-  "./public/img/img3.jpg",
-  "./public/img/img4.jpg",
-  "./public/img/img5.jpg",
-  "./public/img/img6.jpg",
-  "./public/img/img7.jpg",
-  "./public/img/img8.jpg",
-  
-
-];
-
 const Home = () => {
+  const imglondon ="https://i.ibb.co.com/kSMC49L/london-1-7.webp";
+  const imgnewyouk ="https://i.ibb.co.com/6WWrgdJ/london-1-2.webp";
+  const imgparis ="https://i.ibb.co.com/HdV7Hkv/london-1-5.webp";
+  const imgsydney ="https://i.ibb.co.com/MMzkWw6/london-1-3.webp";
+const lnew1="https://i.ibb.co.com/rbmJd7f/img3.webp";
+const lnew2="https://i.ibb.co.com/G7PmgJ3/img1.webp";
+const lnew3="https://i.ibb.co.com/9bLxQCy/img5.webp";
+const lnew4="https://i.ibb.co.com/84z0qQ1/img-4.webp";
+const lnew5="https://i.ibb.co.com/PZZf4Wg/img-1.webp";
+const lnew6="https://i.ibb.co.com/hH5RfN5/img6.webp";
+const lnew7="https://i.ibb.co.com/PZZf4Wg/img-1.webp";
+
+
   const [currentIndex, setCurrentIndex] = useState(0);
 
   // Function to automatically move to the next slide
@@ -101,7 +97,7 @@ const Home = () => {
      
     
      <div className="relative group overflow-hidden rounded-lg shadow-lg">
-       <img src={cardimg[0]} alt="New York" className="w-full h-64 object-cover"></img>
+       <img src={imgnewyouk} alt="New York" className="w-full h-64 object-cover"></img>
        <div className="absolute bottom-0 left-0 right-0 bg-black bg-opacity-50 text-white p-4">
          <h3 className="text-lg font-semibold">New York</h3>
          <p className="text-sm"><button>More..</button></p>
@@ -110,7 +106,7 @@ const Home = () => {
 
     
      <div className="relative group overflow-hidden rounded-lg shadow-lg">
-       <img src={cardimg[1]} alt="London" className="w-full h-64 object-cover"></img>
+       <img src={imglondon} alt="London" className="w-full h-64 object-cover"></img>
        <div className="absolute bottom-0 left-0 right-0 bg-black bg-opacity-50 text-white p-4">
          <h3 className="text-lg font-semibold">London</h3>
          <p className="text-sm"><button>More..</button></p>
@@ -119,7 +115,7 @@ const Home = () => {
 
     
      <div className="relative group overflow-hidden rounded-lg shadow-lg">
-       <img src={cardimg[2]} alt="Paris" className="w-full h-64 object-cover"></img>
+       <img src={imgparis} alt="Paris" className="w-full h-64 object-cover"></img>
        <div className="absolute bottom-0 left-0 right-0 bg-black bg-opacity-50 text-white p-4">
          <h3 className="text-lg font-semibold">Paris</h3>
          <p className="text-sm"><button>More..</button></p>
@@ -128,7 +124,7 @@ const Home = () => {
 
     
      <div className="relative group overflow-hidden rounded-lg shadow-lg">
-       <img src={cardimg[3]} alt="Sydney" className="w-full h-64 object-cover"></img>
+       <img src={imgsydney} alt="Sydney" className="w-full h-64 object-cover"></img>
        <div className="absolute bottom-0 left-0 right-0 bg-black bg-opacity-50 text-white p-4">
          <h3 className="text-lg font-semibold">Sydney</h3>
          <p className="text-sm"><button>More..</button></p>
@@ -155,7 +151,7 @@ const Home = () => {
         
         <div className="group">
           <div className="overflow-hidden rounded-lg shadow-lg">
-            <img src={cardimg[4]} alt="News 1" className="w-full h-64 object-cover group-hover:scale-110 transition duration-300"></img>
+            <img src={lnew1} alt="News 1" className="w-full h-64 object-cover group-hover:scale-110 transition duration-300"></img>
           </div>
           <div className="mt-4">
             <div className="flex items-center text-sm text-gray-600 space-x-2">
@@ -172,7 +168,7 @@ const Home = () => {
         
         <div className="group">
           <div className="overflow-hidden rounded-lg shadow-lg">
-            <img src={cardimg[5]} alt="News 2" className="w-full h-64 object-cover group-hover:scale-110 transition duration-300"></img>
+            <img src={lnew2} alt="News 2" className="w-full h-64 object-cover group-hover:scale-110 transition duration-300"></img>
           </div>
           <div className="mt-4">
             <div className="flex items-center text-sm text-gray-600 space-x-2">
@@ -189,7 +185,7 @@ const Home = () => {
         
         <div className="group">
           <div className="overflow-hidden rounded-lg shadow-lg">
-            <img src={cardimg[8]}alt="News 3" className="w-full h-64 object-cover group-hover:scale-110 transition duration-300"></img>
+            <img src={lnew3}alt="News 3" className="w-full h-64 object-cover group-hover:scale-110 transition duration-300"></img>
           </div>
           <div className="mt-4">
             <div className="flex items-center text-sm text-gray-600 space-x-2">
@@ -209,10 +205,10 @@ const Home = () => {
       <div className="mt-16">
         <div className="grid grid-cols-2 md:grid-cols-5 gap-4">
           
-          <img src={cardimg[6]} alt="Gallery 1" className="w-full h-40 object-cover rounded-lg"></img>
-          <img src={cardimg[9]} alt="Gallery 2" className="w-full h-40 object-cover rounded-lg"></img>
+          <img src={lnew4} alt="Gallery 1" className="w-full h-40 object-cover rounded-lg"></img>
+          <img src={lnew5} alt="Gallery 2" className="w-full h-40 object-cover rounded-lg"></img>
           <div className="relative">
-            <img src={cardimg[10]} alt="Gallery 3" className="w-full h-40 object-cover rounded-lg"></img>
+            <img src={lnew6} alt="Gallery 3" className="w-full h-40 object-cover rounded-lg"></img>
             
             <div className="absolute inset-0 flex items-center justify-center">
               <div className="bg-white rounded-full h-24 w-24 flex items-center justify-center shadow-lg">
@@ -220,8 +216,8 @@ const Home = () => {
               </div>
             </div>
           </div>
-          <img src={cardimg[7]} alt="Gallery 4" className="w-full h-40 object-cover rounded-lg"></img>
-          <img src={cardimg[8]} alt="Gallery 5" className="w-full h-40 object-cover rounded-lg"></img>
+          <img src={lnew7} alt="Gallery 4" className="w-full h-40 object-cover rounded-lg"></img>
+          <img src={lnew2} alt="Gallery 5" className="w-full h-40 object-cover rounded-lg"></img>
         </div>
       </div>
 

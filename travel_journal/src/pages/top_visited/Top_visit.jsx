@@ -1,23 +1,11 @@
-import React from "react";
+
 
 const Top_visit =()=>{
   
-    const cardimg=[
-        "./public/img/newyouk-1.jpg",
-        "./public/img/london-1 .jpg",
-        "./public/img/paris-1.jpg",
-        "./public/img/sydney-1 .jpg",
-        "./public/img/img1.jpg",
-        "./public/img/img2.jpg",
-        "./public/img/img3.jpg",
-        "./public/img/img4.jpg",
-        "./public/img/img5.jpg",
-        "./public/img/img6.jpg",
-        "./public/img/img7.jpg",
-        "./public/img/img8.jpg",
-        
-      
-      ];
+    const imglondon ="https://i.ibb.co.com/kSMC49L/london-1-7.webp";
+    const imgnewyouk ="https://i.ibb.co.com/6WWrgdJ/london-1-2.webp";
+    const imgparis ="https://i.ibb.co.com/HdV7Hkv/london-1-5.webp";
+    const imgsydney ="https://i.ibb.co.com/MMzkWw6/london-1-3.webp";
 
     return(
         <div>
@@ -33,7 +21,7 @@ const Top_visit =()=>{
      
     
      <div className="relative group overflow-hidden rounded-lg shadow-lg">
-       <img src={cardimg[0]} alt="New York" className="w-full h-64 object-cover"></img>
+       <img src={imgnewyouk} alt="New York" className="w-full h-64 object-cover"></img>
        <div className="absolute bottom-0 left-0 right-0 bg-black bg-opacity-50 text-white p-4">
          <h3 className="text-lg font-semibold">New York</h3>
          <p className="text-sm"><button>More..</button></p>
@@ -42,16 +30,7 @@ const Top_visit =()=>{
 
     
      <div className="relative group overflow-hidden rounded-lg shadow-lg">
-       <img src={cardimg[1]} alt="London" className="w-full h-64 object-cover"></img>
-       <div className="absolute bottom-0 left-0 right-0 bg-black bg-opacity-50 text-white p-4">
-         <h3 className="text-lg font-semibold">London</h3>
-         <p className="text-sm"><button>More..</button></p>
-       </div>
-     </div>
-
-    
-     <div className="relative group overflow-hidden rounded-lg shadow-lg">
-       <img src={cardimg[2]} alt="Paris" className="w-full h-64 object-cover"></img>
+       <img src={imgparis} alt="London" className="w-full h-64 object-cover"></img>
        <div className="absolute bottom-0 left-0 right-0 bg-black bg-opacity-50 text-white p-4">
          <h3 className="text-lg font-semibold">Paris</h3>
          <p className="text-sm"><button>More..</button></p>
@@ -60,9 +39,18 @@ const Top_visit =()=>{
 
     
      <div className="relative group overflow-hidden rounded-lg shadow-lg">
-       <img src={cardimg[3]} alt="Sydney" className="w-full h-64 object-cover"></img>
+       <img src={imgsydney} alt="Paris" className="w-full h-64 object-cover"></img>
        <div className="absolute bottom-0 left-0 right-0 bg-black bg-opacity-50 text-white p-4">
          <h3 className="text-lg font-semibold">Sydney</h3>
+         <p className="text-sm"><button>More..</button></p>
+       </div>
+     </div>
+
+    
+     <div className="relative group overflow-hidden rounded-lg shadow-lg">
+       <img src={imglondon} alt="Sydney" className="w-full h-64 object-cover"></img>
+       <div className="absolute bottom-0 left-0 right-0 bg-black bg-opacity-50 text-white p-4">
+         <h3 className="text-lg font-semibold">London</h3>
          <p className="text-sm"><button>More..</button></p>
        </div>
      </div>

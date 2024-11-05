@@ -1,13 +1,9 @@
 
 
-
-const userimg = [
-    "./img/img-1.jpg",
-    "./img/img-2.jpg",
-    
-];
-
 const Explore =()=>{
+
+    const profilepic ="https://i.ibb.co.com/LkwS8kW/img-3.webp";
+    const postpic ="https://i.ibb.co.com/RzYTq7b/img-7.webp";
     return(
         <div>
             <div className="container mx-auto mt-10 px-4">
@@ -16,7 +12,7 @@ const Explore =()=>{
            
            
            <div className="absolute top-4 left-4">
-               <img src={userimg[0]} 
+               <img src={profilepic} 
                     alt="User Profile Picture" 
                     className="w-12 h-12 rounded-full border-2 border-white shadow-md"></img>
            </div>
@@ -30,7 +26,7 @@ const Explore =()=>{
                </div>
 
                
-               <img src={userimg[1]} 
+               <img src={postpic} 
                     alt="Travel Image" className="w-40 h-40 rounded-lg object-cover"></img>
            </div>
 

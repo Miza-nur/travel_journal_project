@@ -1,13 +1,14 @@
 
-const userimg = [
-    "./img/img-1.jpg",
-    "./img/img4.jpg",
-    "./img/img5.jpg",
-    "./img/img6.jpg",
-    "./img/img7.jpg",
-    
-];
+
+
 const Experiences =()=>{
+
+    const imgp="https://i.ibb.co.com/LkwS8kW/img-3.webp";
+    const img4="https://i.ibb.co.com/0r8Vd0G/img4.webp";
+    const img5="https://i.ibb.co.com/9bLxQCy/img5.webp";
+    const img6="https://i.ibb.co.com/hH5RfN5/img6.webp";
+    const img7="https://i.ibb.co.com/hYfY3v8/img7.webp";
+
     return(
         
             <div className="mb-5">
@@ -26,7 +27,7 @@ const Experiences =()=>{
         <div className="mt-6 flex items-start space-x-8">
             {/* Left Column (Profile Picture */}
             <div className="w-1/4">
-                <img src={userimg[1]} alt="Profile Picture" className="w-full h-auto rounded-full shadow-lg"></img>
+                <img src={imgp} alt="Profile Picture" className="w-full h-auto rounded-full shadow-lg"></img>
                 <button className="mt-4 bg-gray-200 text-gray-700 w-full py-2 rounded-md hover:bg-gray-300">
                     Change Picture
                 </button>
@@ -53,10 +54,10 @@ const Experiences =()=>{
                 <div className="mb-6">
                     <h3 className="text-lg font-semibold text-gray-800">Friends</h3>
                     <div className="flex space-x-4">
-                        <img src={userimg[0]} alt="Friend" className="w-12 h-12 rounded-full"></img>
-                        <img src={userimg[2]} alt="Friend" className="w-12 h-12 rounded-full"></img>
-                        <img src={userimg[3]} alt="Friend" className="w-12 h-12 rounded-full"></img>
-                        <img src={userimg[4]} alt="Friend" className="w-12 h-12 rounded-full"></img>
+                        <img src={img4} alt="Friend" className="w-12 h-12 rounded-full"></img>
+                        <img src={img5} alt="Friend" className="w-12 h-12 rounded-full"></img>
+                        <img src={img6} alt="Friend" className="w-12 h-12 rounded-full"></img>
+                        <img src={img7} alt="Friend" className="w-12 h-12 rounded-full"></img>
                     </div>
                 </div>
 
